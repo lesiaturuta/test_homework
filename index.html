@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <main class="main" data-main>
+        <div class="container" data-main-container></div>
+    </main>
+
+    <template id="template">
+        <div class="item">
+            <div>
+
+
+                <div class="img-container">
+                    <img class="img" data-img src="" alt="">
+                </div>
+                <h2 class="title" data-title></h2>
+                <p class="description"></p>
+                <details class="details">
+                    <summary data-description></summary>
+                    <p class="details-text" data-description-details></p>
+                </details>
+                <p class="category">
+                    <span class="category-name" data-category></span>
+                </p>
+            </div>
+            <div class="footer">
+                <div class="price">
+                    <span class="price-name">Price</span>
+                    <span class="price-money" data-price></span>
+                </div>
+                <img class="button-like" data-like src="./img/like.svg" alt="">
+            </div>
+        </div>
+    </template>
+    <script src="./script.js"></script>
+</body>
+
+</html>
